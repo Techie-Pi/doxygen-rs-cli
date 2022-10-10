@@ -1,0 +1,8 @@
+[package]
+name = "doxygen-rs-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+doxygen-rs = { version = "0.2.1", git = "https://github.com/Techie-Pi/doxygen-rs.git" }
+clap = { version = "4", features = ["derive"] }
